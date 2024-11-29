@@ -1,0 +1,133 @@
+.header{
+    width:100%;
+    height:580px;
+    background:var(--tertiary);
+}
+.dp{
+    width:50px;
+    aspect-ratio:1;
+    background:var(--tertiary);
+    border-radius:50%;
+}
+.logo{
+    width:120px;
+    height:50px;
+    background:var(--tertiary);
+    border-radius:var(--sxx);
+}
+.navbar{
+    width:100%;
+    height:80px;
+    background:var(--secondary);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.tab{
+    font-weight:normal;
+    font-size:var(--mx);
+    text-transform:capitalize;
+
+}
+.home{
+    color:var(--secondary);
+    background:var(--accent);
+    border-radius:var(--sxx);
+    padding:var(--s) var(--mx);
+}
+.slogan{
+    width:80%;
+    font-size:var(--mxxx);
+    font-weight:bold;
+    text-align:center;
+    top:180px;
+}
+.searchBar{
+    width:40%;
+    height:50px;
+    background:var(--secondary);
+    border-radius:var(--l);
+    top:250px;
+}
+.searchBar i{
+    width:40px;
+    aspect-ratio:1;
+    border-radius:50%;
+    background:var(--accent);
+    float:right;
+    left:-8px;
+    top:5px;
+}
+.searchBar input{
+    width:85%;
+    height:100%;
+    border:none;
+    outline:none;
+    border-radius:inherit;
+}
+.seeAllButton{
+    width:100px;
+    height:40px;
+    font-size:var(--m);
+    font-weight:bold;
+    color:var(--secondary);
+    background:var(--accent);
+    border:none;
+    border-radius:var(--l);
+    text-transform:capitalize;
+}
+.category-container{
+    padding:var(--s);
+}
+.category-label{
+    text-transform:capitalize;
+}
+.category-items{
+    width:100%;
+    height:400px;
+    background:var(--primary);
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:12px;
+    padding:4px;
+    margin-top:4px
+}
+.card{
+    width:30%;
+    height:100%;
+    background:var(--secondary);
+    padding:4px;
+    border-radius:var(--m);
+}
+.card-image{
+    width:100%;
+    height:60%;
+    background:var(--tertiary);
+    border-top-left-radius:inherit;
+    border-top-right-radius:inherit;
+}
+.card-favourite{
+    width:40px;
+    aspect-ratio:1;
+    background:var(--accent);
+    border-radius:50%;
+    float:right;
+    top:8px;
+    left:-12px;
+}
+.card-info{
+    padding:0px 12px 12px;
+}
+.card-rating{
+    float:right;
+}
+.card-rating i{
+    width:20px;
+    height:20px;
+    border:1px solid red;
+}
+.card-price{
+    font-size:var(--mx);
+    top:20px;
+}
