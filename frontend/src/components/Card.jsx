@@ -1,4 +1,4 @@
-export default function Card()
+export default function Card({cardData})
 {
     return(
         <div className='card'>
@@ -6,10 +6,10 @@ export default function Card()
                 <i className='card-favourite'></i>
             </div>
             <div className='card-info'>
-                <p className='card-location'>Nairobi</p>
-                <p className='card-specs'>2 Bedroom</p>
-                <p className="card-rating">4.0 <i className='rateIcon'></i></p>
-                <p className='card-price'>KES 20,000</p>
+                <p className='card-location'>{cardData.location}</p>
+                <p className='card-specs'>{cardData.specs}</p>
+                <p className="card-rating">{cardData.rating} <i className='rateIcon'></i></p>
+                <p className='card-price'>KES {cardData.price}</p>
             </div>
         </div>
     )
