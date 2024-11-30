@@ -65,7 +65,7 @@
     outline:none;
     border-radius:inherit;
 }
-.seeAllButton{
+.seeAllButton,.seeMoreButton{
     width:100px;
     height:40px;
     font-size:var(--m);
@@ -76,8 +76,13 @@
     border-radius:var(--l);
     text-transform:capitalize;
 }
+.seeMoreButton{
+    width:180px;
+    margin:8px 0px;
+}
 .category-container{
     padding:var(--s);
+    overflow:hidden;
 }
 .category-label{
     text-transform:capitalize;
@@ -91,9 +96,11 @@
     align-items:center;
     gap:12px;
     padding:4px;
-    margin-top:4px
+    margin-top:4px;
+    overflow-x:scroll;
 }
 .card{
+    flex-shrink:0;
     width:30%;
     height:100%;
     background:var(--secondary);
@@ -110,7 +117,7 @@
 .card-favourite{
     width:40px;
     aspect-ratio:1;
-    background:var(--accent);
+    background:var(--secondary);
     border-radius:50%;
     float:right;
     top:8px;
@@ -122,12 +129,58 @@
 .card-rating{
     float:right;
 }
-.card-rating i{
+.rateIcon{
     width:20px;
-    height:20px;
-    border:1px solid red;
+    aspect-ratio:1;
+    top:4px;
+    background:var(--tertiary);
+    border-radius:50%;
+    display:inline-block;
 }
 .card-price{
     font-size:var(--mx);
     top:20px;
+}
+
+.footer{
+    width:100%;
+    height:60vh;
+    background:var(--secondary);
+    padding:var(--m);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.foot{
+    width:24%;
+    height:100%;
+    background:inherit;
+    line-height:var(--m);
+}
+.aboutUs .social{
+    width:40px;
+    top:var(--mxx);
+    aspect-ratio:1;
+    background:var(--tertiary);
+    border-radius:50%;
+    display:inline-block;
+    margin-inline:8px;
+
+}
+.foot h4{
+    font-weight:bold;
+    text-transform:capitalize;
+}
+.foot p{
+    width:75%;
+    line-height:var(--mx);
+}
+.foot li{
+    list-style:none;
+    left:-40px;
+    line-height:var(--mxx);
+}
+.copyright{
+    position:absolute;
+    bottom:var(--m);
 }

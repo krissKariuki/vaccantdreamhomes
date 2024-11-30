@@ -11,6 +11,9 @@ export default function Category()
             <Card/>
             <Card/>
             <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
         </div>
         </div>
     )

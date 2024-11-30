@@ -7,6 +7,7 @@ export default function Body()
             <Category/>
             <Category/>
             <Category/>
+            <button className='seeMoreButton centered'>see more</button>
         </div>
     )
 }

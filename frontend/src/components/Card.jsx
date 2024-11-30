@@ -8,7 +8,7 @@ export default function Card()
             <div className='card-info'>
                 <p className='card-location'>Nairobi</p>
                 <p className='card-specs'>2 Bedroom</p>
-                <p className="card-rating">4.0 <i className='rateIcon'>i</i></p>
+                <p className="card-rating">4.0 <i className='rateIcon'></i></p>
                 <p className='card-price'>KES 20,000</p>
             </div>
         </div>
