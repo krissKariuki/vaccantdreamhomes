@@ -1,13 +1,13 @@
 import Navbar from './Navbar'
 import Slogan from './Slogan'
-import SearchBar from './SearchBar'
+import Searchbar from './Searchbar'
 
 export default function(){
     return(
         <div className='header'>
         <Navbar/>
         <Slogan/>
-        <SearchBar/>
+        <Searchbar classname='searchbar selfCentered'/>
         </div>
     )
 }

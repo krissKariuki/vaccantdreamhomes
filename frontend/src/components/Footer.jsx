@@ -7,9 +7,11 @@ export default function Footer()
                 <p>
                 Vaccant Dream Homes is your premier destination for renting homes, buying/selling land, and shopping for related products in Kenya. We strive to provide a seamless experience for all your real estate needs.
                 </p>
-                <div className='social fb'></div>
-                <div className='social ig'></div>
-                <div className='social x'></div>
+                <div className='socials'>
+                <span className='social childCentered fa fa-facebook'></span>
+                <span className='social childCentered fa fa-instagram'></span>
+                <span className='social childCentered fa fa-twitter'></span>
+                </div>
             </div>
 
             <div className="foot quickLinks">

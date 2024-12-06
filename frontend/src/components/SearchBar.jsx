@@ -1,9 +1,9 @@
-export default function SearchBar()
+export default function Searchbar({classname})
 {
     return(
-        <div className='searchBar centered'>
-            <input id='searchBar-input'type='text'/>
-            <i></i>
+        <div className={classname}>
+            <input id='searchbar-input'type='search'/>
+            <span className='material-icons childCentered'>search</span>
         </div>
     )
 }

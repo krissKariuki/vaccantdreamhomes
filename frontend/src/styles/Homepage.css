@@ -6,7 +6,8 @@
 .dp{
     width:50px;
     aspect-ratio:1;
-    background:var(--tertiary);
+    font-size:var(--l);
+    background:inherit;
     border-radius:50%;
 }
 .logo{
@@ -42,28 +43,30 @@
     text-align:center;
     top:180px;
 }
-.searchBar{
+.searchbar{
     width:40%;
     height:50px;
     background:var(--secondary);
     border-radius:var(--l);
     top:250px;
 }
-.searchBar:hover{
+.searchbar:hover{
     box-shadow:2px 2px 12px 2px var(--tertiary)
 }
-.searchBar i{
+.searchbar span{
     width:40px;
     aspect-ratio:1;
     border-radius:50%;
+    color:var(--primary);
     background:var(--accent);
     float:right;
     left:-8px;
     top:5px;
 }
-.searchBar input{
+.searchbar input{
     width:85%;
     height:100%;
+    background:inherit;
     border:none;
     outline:none;
     border-radius:inherit;
@@ -129,9 +132,9 @@
     aspect-ratio:1;
     background:var(--secondary);
     border-radius:50%;
-    float:right;
-    top:8px;
-    left:-12px;
+    position:absolute;
+    top:12px;
+    right:16px;
 }
 .card-info{
     text-transform:capitalize;
@@ -144,7 +147,8 @@
     width:20px;
     aspect-ratio:1;
     top:4px;
-    background:var(--tertiary);
+    color:#444;
+    background:inherit;
     border-radius:50%;
     display:inline-block;
 }
@@ -168,15 +172,21 @@
     background:inherit;
     line-height:var(--m);
 }
-.aboutUs .social{
+.socials{
+    width:max-content;
+    height:max-content;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.social{
+    font-size:var(--mxx);
     width:40px;
     top:var(--l);
     aspect-ratio:1;
     background:var(--tertiary);
     border-radius:50%;
-    display:inline-block;
     margin-inline:8px;
-
 }
 .foot h4{
     font-weight:bold;

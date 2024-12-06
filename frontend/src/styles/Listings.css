@@ -1,0 +1,93 @@
+.listings{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.listings-details{
+    width:60vw;
+    height:calc(100vh - 80px);
+    background:var(--primary);
+    padding:var(--sx);
+}
+.listings-map{
+    width:40vw;
+    height:calc(100vh - 80px);
+    background:var(--tertiary);
+}
+.listings-searchbar{
+    display:inline-block;
+    top:0;
+    width:70%;
+    margin-top:2px;
+    border-radius:var(--mxx);
+}
+.filter{
+    width:100%;
+    height:50px;
+    top:-4px;
+    background:var(--secondary);
+    border-radius:var(--sxx);
+    padding-inline:4px;
+    margin-top:2px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:16px;
+}
+.filter-selected{
+    width:300px;
+    height:90%;
+    background:var(--secondary);
+    border-radius:4px;
+    padding:2px 4px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-start;
+    gap:8px;
+}
+.filter-selected span{
+    text-transform:capitalize;
+    font-size:var(--s);
+    background:var(--primary);
+    padding:2px;
+    border-radius:2px;
+}
+.propertyListings{
+    width:100%;
+    height:370px;
+    background:var(--primary);
+    margin-top:8px;
+    padding:4px;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:flex-start;
+    align-items:center;
+    gap:var(--m);
+}
+.listingsCard{
+    flex-shrink:0;
+    width:90%;
+    height:200px;
+    background:var(--secondary);
+    border-radius:var(--sxx);
+    padding:var(--sxx);
+    display:flex;
+}
+.listingsCard-img{
+    width:50%;
+    height:100%;
+    background:var(--tertiary);
+}
+.listingsCard-info{
+    width:50%;
+    height:100%;
+    background:var(--primary);
+    padding:var(--sxx);
+}
+.listingsCard-contact{
+    width:70%;
+    height:50px;
+    color:var(--primary);
+    background:var(--accent);
+    border-radius:var(--sxx);
+}

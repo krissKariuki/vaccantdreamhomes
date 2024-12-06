@@ -1,6 +1,6 @@
 export default function Dp()
 {
     return (
-        <div className='dp'></div>
+        <span className='material-icons childCentered dp'>account_circle</span>
     )
 }
