@@ -27,12 +27,18 @@
   position:relative;
   user-select:none;
 }
+*::-webkit-scrollbar{
+  display:none;
+}
 
 body{
   margin:0 auto;
   font-size:1rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color:var(--text);
+}
+button{
+  border:none;
 }
 .selfCentered{
   left:50%;
@@ -42,4 +48,9 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
+}
+.navbar{
+  position:sticky;
+  top:0;
+  z-index:1;
 }

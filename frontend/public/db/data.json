@@ -1,6 +1,7 @@
-[
+{
+    "homepage":[
     {"category":"apartments","items":
-        [
+    [
             {"favourite":true,"location":"nairobi","specs":"2 bedroom","price":20000,"rating":4.6,"img":"../imgs/apartment-1.avif"},
             {"favourite":true,"location":"karen","specs":"3 bedroom","price":24000,"rating":4.4,"img":"../imgs/apartment-2.avif"},
             {"favourite":false,"location":"ngong","specs":"1 bedroom","price":15000,"rating":3.8,"img":"../imgs/apartment-3.avif"},
@@ -26,4 +27,14 @@
             {"favourite":false,"location":"uthiru","specs":"college bag","price":1200,"rating":3.4,"img":"../imgs/product-4.jpg"}
         ]
     }
+],
+"listings":
+[
+    {"favourite":true,"rating":4.7,"location":"karen","price":45000,"img":"../imgs/apartment-1.avif","specs":["3 bedroom","parking","surveillance","swimmimg pool"]},
+    {"favourite":true,"rating":4.5,"location":"ruiru","price":36000,"img":"../imgs/apartment-2.avif","specs":["4bedroom","balcony","surveillance","grass yard"]},
+    {"favourite":false,"rating":4.3,"location":"parklands","price":25000,"img":"../imgs/apartment-3.avif","specs":["2 bedroom","close to hospital","back yard"]},
+    {"favourite":true,"rating":3.8,"location":"dandora","price":15000,"img":"../imgs/apartment-4.avif","specs":["2 bedroom","mall nearby","disabled accesability"]},
+    {"favourite":false,"rating":3.4,"location":"kasarani","price":25000,"img":"../imgs/apartment-5.avif","specs":["3 bedroom"]},
+    {"favourite":false,"rating":3.5,"location":"kiambu","price":9000,"img":"../imgs/apartment-6.avif","specs":["bed sitter"]}
 ]
+}

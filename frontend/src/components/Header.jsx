@@ -4,10 +4,12 @@ import Searchbar from './Searchbar'
 
 export default function(){
     return(
+        <>
+         <Navbar/>
         <div className='header'>
-        <Navbar/>
         <Slogan/>
         <Searchbar classname='searchbar selfCentered'/>
         </div>
+        </>
     )
 }

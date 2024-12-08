@@ -2,14 +2,20 @@ export default function ListingsCard({listingsCardData})
 {
     return(
         <div className='listingsCard'>
-            <img className='listingsCard-img' />
+            <img src={listingsCardData.img}className='listingsCard-img' />
             <div className='listingsCard-info'>
-                <p className='listingsCard-location'><i className='fa fa-location'></i>nairobi</p>
+
+            <span className='material-icons listingsCard-favourite childCentered'>favorite_border</span>
+            <span className='location-icon material-icons'>location_on</span>
+                <p className='listingsCard-location'>{listingsCardData.location}</p>
                 <p className='listingsCard-specs'>
-                    <span>4 bedroom</span>
-                    <span>surveillance</span>
-                    <span>parking</span>
+                    {
+                        listingsCardData.specs.map((spec,id)=>(
+                            <span key={id} className='specs'>{spec}</span>
+                        ))
+                    }
                 </p>
+                <p className='selfCentered listingsCard-price'>kes {listingsCardData.price.toLocaleString('en-us')}</p>
                 <p className='selfCentered childCentered listingsCard-contact'>contact seller</p>
             </div>
         </div>

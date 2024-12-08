@@ -1,0 +1,113 @@
+.details-imageCollection{
+    width:60vw;
+    height:350px;
+    background:var(--secondary);
+    margin:4px 8px;
+    border-radius:var(--m);
+    display:flex;
+    flex-flow:column wrap;
+    justify-content:flex-start;
+    align-items:baseline;
+    gap:4px;
+    overflow:scroll; 
+}
+.details-imageCollection img{
+    flex-grow:1;
+    width:200px;
+    height:auto;
+}
+.details-map{
+    width:38.75vw;
+    height:700px;
+    background:var(--tertiary);
+    background-image:url(/public/imgs/map.png);
+    background-size:contain;
+    border-radius:var(--m);
+    position:absolute;
+    top:84px;
+    right:4px;
+}
+.details-navbar{
+    width:30vw;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    text-transform:capitalize;
+    float:left;
+}
+.details-reviews{
+    width:60vw;
+    height:300px;
+    background:var(--primary);
+    top:60px;
+    left:-340px;
+    margin:4px 8px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    align-items:center;
+    gap:var(--m);
+    overflow:scroll;
+    padding:4px;
+}
+.details-label{
+    top:50px;
+    left:8px;
+    margin:40px 0px 40px;
+    width:max-content;
+}
+.details-reviewsLabel{
+    color:var(--accent);
+    border-bottom:2px solid var(--accent);
+}
+.details-similarProperties{
+    width:100vw;
+    height:250px;
+    display:flex;
+    justify-content:baseline;
+    align-items:center;
+    gap:8px;
+    overflow:scroll;
+}
+.bookNow{
+    width:200px;
+    height:40px;
+    color:var(--primary);
+    background:var(--accent);
+    border-radius:var(--sxx);
+    position:absolute;
+    bottom:40px;
+}
+.reviewCard-dp{
+    width:50px;
+    aspect-ratio:1;
+    background:var(--tertiary);
+    border-radius:50%;
+    position:absolute;
+    top:-32px;
+    left:8px;
+}
+.reviewCard{
+    flex-shrink:0;
+    width:400px;
+    height:200px;
+    background:var(--secondary);
+    border-radius:var(--sx);
+    padding:4px 32px;
+}
+.star{
+    color:rgb(218, 218, 9);
+}
+.reviewCard-message{
+    top:12px;
+}
+.reviewCardRating{
+    position:absolute;
+    bottom:0px;
+    right:12px;
+}
+.reviewCard-rating{
+    display:inline;
+    top:-4px;
+    margin-left:8px;
+}

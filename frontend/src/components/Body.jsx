@@ -9,7 +9,7 @@ export default function Body()
         fetch(url)
         .then(response=>response.json())
         .then(result=>{
-            setData(result)
+            setData(result.homepage)
         })
     }
 
