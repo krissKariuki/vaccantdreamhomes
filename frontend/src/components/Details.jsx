@@ -23,7 +23,6 @@ export default function Details()
     return(
         <>
         <section className='details'>
-            <Navbar/>
             <div className='details-imageCollection'>
                 <img src='/public/imgs/apartment-1.avif'/>
                 <img src='/public/imgs/apartment-2.avif'/>

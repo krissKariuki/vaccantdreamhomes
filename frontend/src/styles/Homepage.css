@@ -40,13 +40,9 @@
     font-weight:normal;
     font-size:var(--mx);
     text-transform:capitalize;
-
-}
-.home{
-    color:var(--secondary);
-    background:var(--accent);
     border-radius:var(--sxx);
     padding:var(--s) var(--mx);
+
 }
 .slogan{
     color:var(--primary);

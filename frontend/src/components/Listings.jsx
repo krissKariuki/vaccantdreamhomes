@@ -23,7 +23,7 @@ export default function Listings()
 
     return(
         <>
-        <Navbar/>
+
         <section className='page listings'>
             <div className='listings-sect listings-details'>
             <div className='selfCentered filter'>
